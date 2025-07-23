@@ -27,8 +27,8 @@ namespace Todo.Insfrastructure.Configurations
                    DueDate = DateTime.Now.AddDays(1),
                    Note = "This is the first todo",
                    TodoCategoryId = 1,
-                   CreatedAt = DateTime.Now,
-                   UpdatedAt = DateTime.Now
+                   CreateDate = DateTime.Now,
+                   UpdateDate = DateTime.Now
                },
                new TodoItem
                {
@@ -38,8 +38,8 @@ namespace Todo.Insfrastructure.Configurations
                    DueDate = DateTime.Now.AddDays(2),
                    Note = "This is the second todo",
                    TodoCategoryId = 2,
-                   CreatedAt = DateTime.Now,
-                   UpdatedAt = DateTime.Now
+                   CreateDate = DateTime.Now,
+                   UpdateDate = DateTime.Now
                },
                new TodoItem
                {
@@ -49,8 +49,8 @@ namespace Todo.Insfrastructure.Configurations
                    DueDate = DateTime.Now.AddDays(3),
                    Note = "This is the third todo",
                    TodoCategoryId = 3,
-                   CreatedAt = DateTime.Now,
-                   UpdatedAt = DateTime.Now
+                   CreateDate = DateTime.Now,
+                   UpdateDate = DateTime.Now
                },
 
                new TodoItem
@@ -61,8 +61,8 @@ namespace Todo.Insfrastructure.Configurations
                    DueDate = DateTime.Now.AddDays(4),
                    Note = "This is the fourth todo",
                    TodoCategoryId = 4,
-                   CreatedAt = DateTime.Now,
-                   UpdatedAt = DateTime.Now
+                   CreateDate = DateTime.Now,
+                   UpdateDate = DateTime.Now
 
                }
                );

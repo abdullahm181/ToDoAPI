@@ -13,8 +13,8 @@ builder.Services.AddOpenApi();
 // Connection our local SQL Server
 builder.Services.AddDbContext<TodoDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("connection"),
-       b => b.MigrationsAssembly("Todo.Infrastructure"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TodoConnection"),
+       b => b.MigrationsAssembly("Todo.Insfrastructure"));
 } );
 // Add services to the container.
 builder.Services.AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>));

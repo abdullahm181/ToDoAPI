@@ -8,8 +8,9 @@
         public DateTime? DueDate { get; set; }
         public string Note { get; set; } = string.Empty;
         public int TodoCategoryId { get; set; }
-        public TodoCategory Category { get; set; } = new TodoCategory();
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime? UpdatedAt { get; set; } = null;
+        public TodoCategory Category { get; set; }
+
+        public DateTime CreateDate { get; set; }
+        public DateTime UpdateDate { get; set; }
     }
 }
