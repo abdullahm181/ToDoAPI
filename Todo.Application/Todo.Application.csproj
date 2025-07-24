@@ -12,12 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Categorys\" />
-    <Folder Include="Commands\Todo\" />
-    <Folder Include="Handlers\Catehorys\" />
-    <Folder Include="Handlers\Todo\" />
-    <Folder Include="Mapping\" />
-    <Folder Include="Queries\" />
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
   </ItemGroup>
 
 </Project>
